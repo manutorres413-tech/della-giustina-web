@@ -38,6 +38,9 @@ export default function Navbar() {
             <Link to="/" className={location.pathname === '/' ? 'active' : ''} onClick={closeMenu}>Inicio</Link>
           </li>
           <li>
+            <Link to="/nosotros" className={location.pathname === '/nosotros' ? 'active' : ''} onClick={closeMenu}>Nosotros</Link>
+          </li>
+          <li>
             <Link to="/catalogo" className={location.pathname === '/catalogo' ? 'active' : ''} onClick={closeMenu}>Catálogo</Link>
           </li>
           <li>

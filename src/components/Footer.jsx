@@ -25,6 +25,7 @@ export default function Footer() {
             <h4>Enlaces Rápidos</h4>
             <ul className="footer-links">
               <li><Link to="/">Inicio</Link></li>
+              <li><Link to="/nosotros">Nosotros</Link></li>
               <li><Link to="/catalogo">Catálogo de Productos</Link></li>
               <li><Link to="/prepizzas">Fábrica de Prepizzas</Link></li>
             </ul>

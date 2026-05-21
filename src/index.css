@@ -432,3 +432,75 @@ button {
     gap: 2rem !important;
   }
 }
+
+/* ==========================================================================
+   Nuevas Secciones Estilizadas (Nosotros, Mayoristas, FAQs, Filtros)
+   ========================================================================== */
+
+/* Pestañas de categorías */
+.category-tab-btn {
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(0);
+}
+
+.category-tab-btn:hover {
+  border-color: var(--color-primary) !important;
+  color: var(--color-primary) !important;
+  transform: translateY(-2px);
+}
+
+.category-tab-btn.active {
+  box-shadow: 0 4px 12px rgba(197, 160, 89, 0.3);
+}
+
+.category-tab-btn.active:hover {
+  color: var(--color-bg) !important;
+}
+
+/* Caja de Mayorista */
+.wholesale-box {
+  transition: var(--transition);
+}
+
+.wholesale-box:hover {
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+  border-color: rgba(197, 160, 89, 0.4) !important;
+}
+
+/* Input de dirección */
+.address-input:focus {
+  border-color: var(--color-primary) !important;
+  box-shadow: 0 0 10px rgba(197, 160, 89, 0.2);
+}
+
+/* About / Nosotros */
+.about-hero {
+  border-bottom: 1px solid rgba(197, 160, 89, 0.2);
+  position: relative;
+}
+
+.about-hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-primary), transparent);
+}
+
+/* Acordeón de FAQs */
+.faq-button-trigger:hover {
+  background: rgba(197, 160, 89, 0.03) !important;
+}
+
+/* Responsive Extra */
+@media (max-width: 768px) {
+  .wholesale-box {
+    grid-template-columns: 1fr !important;
+    padding: 2rem 1.5rem !important;
+    gap: 2rem !important;
+  }
+}
+

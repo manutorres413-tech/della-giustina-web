@@ -6,6 +6,7 @@ import WhatsAppFab from './components/WhatsAppFab';
 import Home from './pages/Home';
 import Catalog from './pages/Catalog';
 import Prepizzas from './pages/Prepizzas';
+import About from './pages/About';
 import './App.css';
 
 // Componente para scrollear arriba al cambiar de ruta
@@ -24,6 +25,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/nosotros" element={<About />} />
         <Route path="/catalogo" element={<Catalog />} />
         <Route path="/prepizzas" element={<Prepizzas />} />
       </Routes>
