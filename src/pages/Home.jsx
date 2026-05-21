@@ -61,30 +61,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <section className="section" style={{ background: 'var(--color-bg-light)' }}>
-        <div className="container" style={{ textAlign: 'center' }}>
-          <h2 className="section-title">Seguinos en Instagram</h2>
-          <p style={{ color: 'var(--color-text-muted)', marginBottom: '2rem' }}>
-            Enterate de todas nuestras novedades, promociones y nuevos ingresos.
-          </p>
-          
-          {/* Instagram Feed Widget Container */}
-          <div style={{ maxWidth: '900px', margin: '0 auto', background: 'var(--color-bg)', borderRadius: 'var(--radius)', border: '1px solid rgba(197, 160, 89, 0.2)', padding: '2rem', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '300px' }}>
-            {/* Widget de Elfsight (o similar) */}
-            <div className="elfsight-app-placeholder" style={{ width: '100%', textAlign: 'center' }}>
-              <div style={{ padding: '2rem', border: '1px dashed var(--color-primary-light)', borderRadius: '8px' }}>
-                <h4 style={{ color: 'var(--color-primary)', marginBottom: '1rem' }}>Mural de Instagram (En desarrollo)</h4>
-                <p style={{ color: 'var(--color-text-muted)', fontSize: '0.9rem', marginBottom: '1.5rem' }}>Acá se va a cargar automáticamente la grilla con tus últimas fotos de Instagram.</p>
-                <a href="https://www.instagram.com/dellagiustinaquesosyfiambres/" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ display: 'inline-flex', padding: '0.5rem 1.5rem' }}>
-                  Ir al Instagram
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section className="section">
         <div className="container">
           <h2 className="section-title">Encontranos</h2>
